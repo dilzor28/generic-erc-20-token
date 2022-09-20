@@ -1,0 +1,40 @@
+{
+  "name": "generic-erc20",
+  "version": "0.0.1",
+  "description": "Generic ERC20 BSC Token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "(mocha)",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilzor28/generic-erc-20-staking.git"
+  },
+  "keywords": [
+    "bsc",
+    "binance",
+    "smart",
+    "contract",
+    "BEP20"
+  ],
+  "author": "Dillon Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilzor28/generic-erc-20-staking/issues"
+  },
+  "homepage": "https://github.com/dilzor28/generic-erc-20-staking#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.0.37",
+    "dotenv": "^10.0.0",
+    "lite-server": "^2.6.1",
+    "truffle": "^5.4.12"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.15"
+  }
+}
